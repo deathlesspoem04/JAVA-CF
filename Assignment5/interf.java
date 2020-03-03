@@ -1,3 +1,4 @@
+
 public class interf implements inter.inter1 {
     public int gcd(int a, int b)
     {
@@ -10,5 +11,10 @@ public class interf implements inter.inter1 {
         if (a > b)
             return gcd(a-b, b);
         return gcd(a, b-a);
+    }
+
+    public void result() {
+        test1 T = new test1();
+        T.Display();
     }
 }
